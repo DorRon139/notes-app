@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Urbanist&display=swap");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar-paper {
+  display: flex;
+  padding: 5px;
+}
+
+.site-name {
+  margin: 0;
+  font-family: cursive;
+  font-weight: "100";
+}
+
+.form-text-area {
+  margin: 10px 10%;
+  padding: 25px 50px;
+}
+
+.note-paper {
+  display: inline-flex;
+  min-width: 200px;
+  min-height: 100px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
