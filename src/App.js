@@ -25,12 +25,11 @@ const App = () => {
       <Header />
       <FormArea addNote={addNote} />
       {notes.map((note, index) => (
-        <Note
+        <><Note
           id={index}
           deleteNote={deleteNote}
           title={note.title}
-          content={note.content}
-        />
+          content={note.content} /><p>Hey</p></>
       ))}
       <Footer />
     </div>
